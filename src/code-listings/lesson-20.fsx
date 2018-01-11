@@ -43,12 +43,12 @@ getLimit customer
 let getLimitPm customer =
     match customer with
     | "medium", 1 -> 500
-    | "good", 0 | "good", 1 -> 750
+    | "good", (0 | 1) -> 750
     | "good", 2 -> 1000
     | "good", _ -> 2000
     | _ -> 250
 
-getLimitPm customer    
+getLimitPm customer
 
 // Listing 20.7
 let getCreditLimit customer =
