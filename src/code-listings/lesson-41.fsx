@@ -1,4 +1,4 @@
-#I @"..\..\..\packages\"
+#I @"..\..\packages\"
 #r @"FsCheck\lib\net45\FsCheck.dll"
 #r @"xunit.extensibility.core\lib\dotnet\xunit.core.dll"
 #r @"xunit.abstractions\lib\net35\xunit.abstractions.dll"
